@@ -96,35 +96,6 @@
 					</p>
 				</div>
 			</div>
-			
-			<div id="map"></div>
-  
-			<!--Add a script by google -->
-			<script src=
-					"https://maps.googleapis.com/maps/api/js?key=<AIzaSyBavxSFV3yduMAlkT2xEWq6b_s03GW-GMM>&callback=initMap&libraries=&v=weekly"
-					async>
-			</script>
-		  
-			<script>
-				// Initialize and add the map
-				function initMap() {
-		  
-					// The location of Geeksforgeeks office
-					const linearwood_office = {
-						lat: 44.717116,
-						lng: 26.652053
-					};
-		  
-					// Create the map, centered at gfg_office
-					const map = new google.maps.Map(
-							document.getElementById("map"), {
-		  
-						// Set the zoom of the map
-						zoom: 17.56,
-						center: linearwood_office,
-					});
-				}
-			</script>
 			<ul class="navigation">
 				<li>
 					<a href="index.html">Home</a>

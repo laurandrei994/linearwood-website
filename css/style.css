@@ -611,11 +611,7 @@ div.blog a.more:hover {
 	overflow: auto;
 	resize: none;
 }
-/*------------------------------ MAP ------------------------------*/
-#map {
-	height: 400px;
-	width: 400px;
-}
+
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
 	background-color: #e2b241;
