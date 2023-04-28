@@ -139,7 +139,7 @@ img {
 #header {
 	background-color: #241b18;
 	height: 100px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 3px solid #fff;
 	padding: 36px 0 0;
 }
 #header > div {
@@ -615,7 +615,7 @@ div.blog a.more:hover {
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
 	background-color: #e2b241;
-	border-top: 1px solid #fff;
+	border-top: 3px solid #4b3a33;
 	padding: 28px 0 14px;
 }
 #footer p {
@@ -750,6 +750,7 @@ div.blog a.more:hover {
 #connect a.twitter:hover {
 	background-position: 0 -194px;
 }
+
 #footer ul.navigation {
 	float: right;
 	display: inline-block;
