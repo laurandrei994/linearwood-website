@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
+	<?php
+	// Include the PHP script
+	include 'send_email.php';
+	?>
 	<div id="header">
 		<div>
 			<div id="logo">
@@ -48,16 +52,16 @@
 						Luni-Vineri -> 08:00-17:00</br>
 						Sâmbătă -> 08:00-14:00
 					</p>
-					<form action="#" method="post" enctype="text/plain">
-						<label>Name</label>
-						<input type="text" value="">
-						<label>Email Address</label>
-						<input type="text" value="">
-						<label>Contact Number</label>
-						<input type="text" value="">
-						<label>Message</label>
-						<textarea></textarea>
-						<input type="submit" value="Send Message" class="btn1">
+					<form method="post" action="#">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required value="">
+						<label for="email">Email Address</label>
+						<input type="email" id="email" name="email" required value="">
+						<label for="contactno">Contact Number</label>
+						<input type="text" id="contactno" name="contactno" required value="">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required></textarea>
+						<input type="submit" value="Send" class="btn1">
 					</form>
 				</div>
 			</div>
